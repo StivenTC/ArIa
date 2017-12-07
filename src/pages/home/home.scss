@@ -1,3 +1,63 @@
 page-home {
-    
+    .profile-header {
+        position: relative;
+        z-index: 0;
+        background-image: url("../assets/imgs/bkg-profile.jpg");
+        background-size: cover;
+        color: white;
+        text-align: center;
+        background-position: center;
+        height: 45%;
+        h2 {
+            margin: 0;
+        }
+        .usr-data {
+            position: absolute;
+            top: 40%;
+            width: 100%;
+        }
+        .usr-img {
+            width: 10em;
+            height: 10em;
+            border-radius: 50%;
+            transform: translatey(150%);
+        }
+        .border-bottom {
+            z-index: -1;
+            position: relative;
+            bottom: -40%;
+            height: 3em;
+            margin-left: -5%;
+            width: 110%;
+            padding: 2em;
+            border-radius: 50%;
+            background: white;
+        }
+        .log-info {
+            float: left;
+            margin-left: 1em;
+            ion-icon {
+                font-size: 3em;
+                color: #363946;
+            }
+        }
+        .log-out {
+            float: right;
+            margin-right: 1em;
+            ion-icon {
+                font-size: 3em;
+                color: #363946;
+            }
+        }
+    }
+    .profile-body {
+        text-align: center;
+        height: 50%;
+        .profile-body-content {
+            padding-top: 30%;
+        }
+        button {
+            margin-top: 30%;
+        }
+    }
 }
